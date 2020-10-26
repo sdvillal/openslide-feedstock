@@ -27,6 +27,7 @@ requirements:
     - libxml2
     - sqlite >=3.6.2
     - zlib
+    - pixman >=0.40
   run:
     - cairo >=1.2
     - gdk-pixbuf
@@ -38,6 +39,7 @@ requirements:
     - openjpeg >=2.1
     - sqlite >=3.6.2
     - zlib
+    - pixman >=0.40
 
 test:
   commands:
